@@ -17,7 +17,9 @@
     <button > = </button>
     <label>${param.a+param.b}</label>
     <h2> Phep Nhan 2</h2>
-
+    <input name="c" value="${param.c}"/>+<input name="d" value="${param.d}"/>
+    <button > = </button>
+    <label>${param.c*param.d}</label>
 </form>
 
 </body>
